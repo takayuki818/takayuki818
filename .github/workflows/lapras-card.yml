@@ -10,7 +10,7 @@ jobs:
     name: LAPRAS Card
     runs-on: ubuntu-latest
     steps:
-      - uses: kawamataryo/lapras-card-readme@main
+      - uses: takayuki818/lapras-card-readme@main
         with:
           SHARE_ID: takayuki818
           # 以下オプション
