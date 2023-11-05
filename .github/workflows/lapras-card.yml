@@ -8,18 +8,11 @@ on:
 jobs:
   update-card:
     name: LAPRAS Card
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: kawamataryo/lapras-card-readme@v1.2.1
+      - uses: kawamataryo/lapras-card-readme@main
         with:
-          SHARE_ID: takayuki818
-          ICON_FIRST: "#212121"
-          ICON_SECOND: "#818181"
-          BACKGROUND_FIRST: "#232323"
-          BACKGROUND_SECOND: "#6d6d6d"
-          LANG: "en"
-          CARD_WIDTH: "40%"
-          UPDATE_TIME: "false"
+          SHARE_ID: "<公開ポートフォリオのID>"
           # 以下オプション
           # https://lapras-card-generator.vercel.app でカスタマイズしたデザインを設定可能
           # ICON_FIRST: "#030E21"
